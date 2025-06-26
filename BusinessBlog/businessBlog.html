@@ -4,8 +4,304 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 </head>
 <body>
-    
+    <header>
+      <nav class="navbar">
+        <div class="logo"><i class="fas fa-compass"></i> Clarity</div>
+
+        <div class="nav-links">
+          <div class="nav-item">
+            <a href="#"
+              >Home <i class="fas fa-chevron-down" style="font-size: 10px"></i
+            ></a>
+            <div class="dropdown">
+              <a href="#">Home 1</a>
+              <a href="#">Home 2</a>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a href="#"
+              >Pages <i class="fas fa-chevron-down" style="font-size: 10px"></i
+            ></a>
+            <div class="dropdown">
+              <a href="#">About</a>
+              <a href="#">Contact</a>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a href="#"
+              >Blogs <i class="fas fa-chevron-down" style="font-size: 10px"></i
+            ></a>
+            <div class="dropdown">
+              <a href="#">Blog Grid</a>
+              <a href="#">Blog Details</a>
+            </div>
+          </div>
+          <div class="nav-item">
+            <a href="#">Support</a>
+          </div>
+        </div>
+
+        <div class="icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin-in"></i>
+          <i class="fab fa-pinterest-p"></i>
+          <i class="fas fa-search search-icon"></i>
+          <button class="subscribe-btn">Subscribe</button>
+        </div>
+      </nav>
+    </header>
+    <main>
+  <div class="background">
+  <section class="blog">
+    <!-- main post -->
+    <div class="main-post">
+      <img src="https://clarity-tailwind.preview.uideck.com/images/hero-01.png" alt="Featured" />
+      <div class="content">
+        <span class="tag lifestyle">Lifestyle</span>
+        <h2>Begin here to obtain a brief summary encompassing all the essential</h2>
+        <p>This comprehensive post serves as your cheat-sheet to swiftly familiarize yourself with Ghost. Packed with crucial...</p>
+        <div class="author">
+          <img src="https://clarity-tailwind.preview.uideck.com/images/user-01.png" alt="Author" />
+          <span>By Adrio Devid</span> • <span>Sep 10, 2025</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- sub post -->
+    <div class="sub-blog">
+      <div class="blog-content">
+        <img src="https://clarity-tailwind.preview.uideck.com/images/hero-02.png" alt="Tech Blog" />
+        <div class="content">
+          <span class="tag tech">Technology</span>
+          <h3>14 Innovative Architectural Designs to Create a Vast Interior Space</h3>
+          <div class="author">
+            <span>By Adrio Devid</span> • <span>Sep 10, 2025</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="blog-content">
+        <img src="https://clarity-tailwind.preview.uideck.com/images/hero-03.png" alt="Nature Blog" />
+        <div class="content">
+          <span class="tag travel">Travel</span>
+          <h3>Traveller Visiting Ice Cave With Amazing Eye-catching view with nature</h3>
+          <div class="author">
+            <span>By Adrio Devid</span> • <span>Sep 10, 2025</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  </div>
+
+   <!-- Category -->
+
+  <section class="category">
+    <div class="category-header">
+      <h2>Browse by Category</h2>
+      <p>Select a category to see more related content</p>
+    </div>
+
+    <!-- Filter Buttons -->
+     <div class="all-buttons">
+    <div class="all">
+      <button class="active">All (20)</button>
+    </div>
+    <div class="filter-buttons">
+      <button>Technology (03)</button>
+      <button>Lifestyle (02)</button>
+      <button>Travel (05)</button>
+      <button>Health (09)</button>
+      <button>Culture (01)</button>
+    </div>
+     </div>
+
+    <!-- category post -->
+
+    <div class="cat-sub-blog">
+
+    <!-- different post -->
+<!-- post 1 -->
+      <div class="category-content">
+        <img src="https://clarity-tailwind.preview.uideck.com/images/blog-01.png" alt="Post" />
+        <h3>Stylish Kitchen And Dining Room With Functional Ideas</h3>
+        <p>Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
+        <div class="author-row">
+          <div class="author-info">
+            <img src="https://clarity-tailwind.preview.uideck.com/images/user-01.png" alt="Author" />
+            <span>Adrio Devid</span> • <span>Sep 10, 2025</span>
+          </div>
+          <span class="tag tech">Technology</span>
+        </div>
+      </div>
+
+<!-- post 2 -->
+      <div class="category-content">
+        <img src="https://clarity-tailwind.preview.uideck.com/images/blog-02.png" alt="Post" />
+        <h3>Stylish Kitchen And Dining Room With Functional Ideas</h3>
+        <p>Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
+        <div class="author-row">
+          <div class="author-info">
+            <img src="https://clarity-tailwind.preview.uideck.com/images/user-01.png" alt="Author" />
+            <span>Adrio Devid</span> • <span>Sep 10, 2025</span>
+          </div>
+          <span class="tag tech">Technology</span>
+        </div>
+      </div>
+
+<!-- post 3 -->
+      <div class="category-content">
+        <img src="https://clarity-tailwind.preview.uideck.com/images/blog-03.png" alt="Post" />
+        <h3>Stylish Kitchen And Dining Room With Functional Ideas</h3>
+        <p>Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
+        <div class="author-row">
+          <div class="author-info">
+            <img src="https://clarity-tailwind.preview.uideck.com/images/user-01.png" alt="Author" />
+            <span>Adrio Devid</span> • <span>Sep 10, 2025</span>
+          </div>
+          <span class="tag tech">Technology</span>
+        </div>
+      </div>
+
+<!-- post 4       -->
+      <div class="category-content">
+        <img src="https://clarity-tailwind.preview.uideck.com/images/blog-04.png" alt="Post" />
+        <h3>Stylish Kitchen And Dining Room With Functional Ideas</h3>
+        <p>Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
+        <div class="author-row">
+          <div class="author-info">
+            <img src="https://clarity-tailwind.preview.uideck.com/images/user-01.png" alt="Author" />
+            <span>Adrio Devid</span> • <span>Sep 10, 2025</span>
+          </div>
+          <span class="tag lifestyle">Lifestyle</span>
+        </div>
+      </div>
+
+<!-- post 5       -->
+      <div class="category-content">
+        <img src="https://clarity-tailwind.preview.uideck.com/images/blog-05.png" alt="Post" />
+        <h3>Stylish Kitchen And Dining Room With Functional Ideas</h3>
+        <p>Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
+        <div class="author-row">
+          <div class="author-info">
+            <img src="https://clarity-tailwind.preview.uideck.com/images/user-01.png" alt="Author" />
+            <span>Adrio Devid</span> • <span>Sep 10, 2025</span>
+          </div>
+          <span class="tag travel">Travel</span>
+        </div>
+      </div>
+
+<!-- post 6       -->
+      <div class="category-content">
+        <img src="https://clarity-tailwind.preview.uideck.com/images/blog-06.png" alt="Post" />
+        <h3>Stylish Kitchen And Dining Room With Functional Ideas</h3>
+        <p>Lorem Ipsum is simply dummy text of the print and typesetting industry...</p>
+        <div class="author-row">
+          <div class="author-info">
+            <img src="https://clarity-tailwind.preview.uideck.com/images/user-01.png" alt="Author" />
+            <span>Adrio Devid</span> • <span>Sep 10, 2025</span>
+          </div>
+          <span class="tag travel">Travel</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="load-more">
+      <button>Browse all Posts</button>
+    </div>
+  </section>
+
+<!-- Authors -->
+    <section class="top-authors">
+
+    <div class="author-head">
+      <h2>Top Authors</h2>
+      <a href="#">All Authors →</a>
+    </div>
+
+    <div class="authors-list">
+      <!-- Author 1 -->
+      <div class="author-section">
+        <img src="https://clarity-tailwind.preview.uideck.com/images/user-01.png" alt="name" />
+        <div class="author-details">
+          <h4>Adrio Devid</h4>
+          <p>Director of Operations</p>
+          <span>📄 03 Published posts</span>
+        </div>
+      </div>
+
+      <!-- Author 2 -->
+      <div class="author-section">
+        <img src="https://clarity-tailwind.preview.uideck.com/images/user-02.png" alt="name" />
+        <div class="author-details">
+          <h4>Rayna Kenter</h4>
+          <p>Content writer</p>
+          <span>📄 05 Published posts</span>
+        </div>
+      </div>
+
+      <!-- Author 3 -->
+      <div class="author-section">
+        <img src="https://clarity-tailwind.preview.uideck.com/images/user-03.png" alt="name" />
+        <div class="author-details">
+          <h4>Talan Philips</h4>
+          <p>Director of Operations</p>
+          <span>📄 10 Published posts</span>
+        </div>
+      </div>
+    </div>
+
+  </section>
+<div class="ending">
+  <section class="subscribe">
+     <div class="email-content">
+      <div class="email-text">
+        <h3>Subscribe to Newsletter</h3>
+        <p>Provide your email to get email notification when we launch<br>
+        new products or publish new articles</p>
+      </div>
+      <form class="email-form">
+        <input type="email" placeholder="Enter your Email" required />
+        <button type="submit">Subscribe</button>
+      </form>
+     </div>
+  </section>
+</div>
+    </main>
+    <footer>
+      <div class="footer-left">
+        <p>&copy; 2025 Clarity. All rights reserved</p>
+      </div>
+
+      <div class="footer-center">
+        <a href="#">Privacy</a>
+        <span>•</span>
+        <a href="#">Terms</a>
+        <span>•</span>
+        <a href="#">Contact</a>
+        <span>•</span>
+        <a href="#">Contribute</a>
+      </div>
+
+      <div class="footer-right">
+        <span>Follow Us:</span>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
+        <a href="#"><i class="fab fa-pinterest"></i></a>
+      </div>
+    </footer>
 </body>
 </html>
